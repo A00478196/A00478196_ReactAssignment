@@ -1,0 +1,46 @@
+
+#aboutSection{
+    margin:auto auto;
+    background-color: var(--primary-background-color);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.aboutMe{
+   width: 80%;
+   margin: 0 auto;
+   position: relative;
+   top:20%;
+   text-align: center;
+}
+
+.aboutMe .profile{
+    text-transform: uppercase;
+}
+
+.profile h2{
+    padding-bottom: 0.3em;
+    position: relative;
+    color: var(--primary-text-color);
+}
+
+.profile h2::after{
+    /* content: ""; */
+    border-bottom: 2px solid var(--primary-text-color);
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 100px;
+
+}
+.profile img{
+   width: 10%;
+   height: 10%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.aboutMe p{
+    font-size: 15px;
+    font-weight: 500;
+}

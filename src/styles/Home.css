@@ -1,0 +1,85 @@
+#home{
+    background-color: var(--primary-background-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+}
+
+.homeInner{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 20% !important;
+    display: flex;
+}
+
+.town{
+    margin-left: 2em;
+    align-self: center;
+}
+
+.townImg{
+    width: 28%;
+    padding: 1em;
+    position: relative;
+}
+
+.townImg::before{
+    content:"";
+    border-top: 4px solid var(--primary-text-color);
+    border-left: 4px solid var(--primary-text-color);
+    position: absolute;
+    width: 100px;
+    top: 10px;
+    height:100px;
+    left: 10px;
+}
+
+
+.townImg::after{
+    content:"";
+    border-bottom: 4px solid var(--primary-text-color);
+    border-right: 4px solid var(--primary-text-color);
+    position: absolute;
+    width: 100px;
+    bottom: -10px;
+    height:100px;
+    right: -10px;
+}
+
+
+.townImg img{
+    width: 100%;
+    height: 100%;
+    border: 10px solid #fff;
+}
+
+.weather-inner{
+    display: flex;
+  
+}
+.weather-inner img{
+    width: 45px;
+    height: 45px;
+    margin-left: 1em;
+    object-fit: contain;
+}
+
+
+.toggleBtn{
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--primary-text-color);
+    border: 1px solid var(--primary-text-color);
+    color: #fff;
+    padding: 0.8em 2em;
+    cursor: pointer;
+    margin-top: 1em;
+} 
+
+.toggleBtn:hover{
+    background-color: #fff;
+    color: var(--primary-text-color);
+    border: 1px solid var(--primary-text-color);
+}
