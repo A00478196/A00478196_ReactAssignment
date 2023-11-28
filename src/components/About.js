@@ -9,7 +9,7 @@ const About = () => {
             <div className="aboutMe">
             <div className="profile">
                 <img src={profile} alt={"my_profile_picture"}/>
-                <h2>Kritika Koirala</h2>
+                <h2>Kritika Koirala - This is PROD</h2>
 
             </div>
                 <p> I am from Kathmandu, Nepal. I graduated with BSc (Hons) Computing degree in 2021 from Nepal and worked as a web developer for almost 2.5 years. 
